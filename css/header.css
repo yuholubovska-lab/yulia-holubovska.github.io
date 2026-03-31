@@ -1,0 +1,13 @@
+header .row {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;             /*Вирівнювання по основній осі (main axis)*/
+    align-items: center;                        /*Вирівнювання рядів по додатковій осі (cross axis)*/
+    align-content: center;                      /*Вирівнювання усього контенту по отогональній осі (cross axis)*/
+    flex-direction:column;                         /*Визначення напряму головної осі*/
+    min-height: 100dvh;                         /*dvh - dinamic viewport height*/
+}
+
+header .col{
+    background-color: #ccc;
+}
