@@ -12,3 +12,16 @@
     position: relative;
     width: 100%;
 }
+.the.space {
+    color: white; 
+    font-size: 24px; 
+    text-transform: lowercase; 
+    font-family: 'Orbitron', sans-serif; 
+    
+    
+    display: block; 
+    text-align: right; 
+    
+    margin-top: -10px; 
+    margin-right: 5px; 
+}
