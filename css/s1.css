@@ -1,0 +1,113 @@
+
+
+
+.tours {
+    background-color: var(--main-colour, #1D1915); 
+    border-radius: 40px;       
+    padding: 60px 0;           
+    margin-top: -40px;       
+    position: relative;     
+    z-index: 5;             
+}
+
+.title-wrapper {
+    display: flex;        
+    align-items: center; 
+    gap: 30px;             
+    margin-bottom: 50px;   
+}
+
+.section-title {
+    font-size: 3rem;     
+    white-space: nowrap;   
+    color: var(--header-color);
+}
+
+.title-line {
+    flex-grow: 1;          
+    height: 1px;
+}
+
+
+.tours-container {
+    display: flex;
+    justify-content: center; 
+    gap: 30px;              
+    margin-top: 40px;
+}
+
+.tour-card {
+    background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(5px); 
+
+
+    border-radius: 30px;
+    padding: 30px;
+    flex: 1;
+    max-width: 430px;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+
+
+.venus { 
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.7)), 
+                      url('../img/venus.png'); 
+}
+
+.moon { 
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.7)), 
+                      url('../img/moon.png'); 
+}
+
+.mars { 
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.7)), 
+                      url('../img/mars.png'); 
+}
+
+
+
+.section-title {
+    font-size: 3rem;
+    margin-bottom: 40px;
+    
+}
+
+
+
+
+
+.tours-footer {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+.slider-controls {
+    display: flex;
+    gap: 15px;           
+}
+
+.slider-controls button {
+    background-color: #333;  
+    color: white;
+    border: none;
+    border-radius: 50%;    
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
