@@ -4,28 +4,33 @@
 .tours {
     background-color: var(--main-colour, #1D1915); 
     border-radius: 40px;       
-    padding: 60px 0;           
-    margin-top: -40px;       
+    padding: 60px 0 80px;           
+    margin-top: -40px;      
     position: relative;     
-    z-index: 5;             
-}
+    z-index: 5;        
+}     
+           
+
 
 .title-wrapper {
     display: flex;        
     align-items: center; 
-    gap: 30px;             
+    gap: 30px;      
+    padding: 0 40px;       
     margin-bottom: 50px;   
 }
 
 .section-title {
-    font-size: 3rem;     
+    font-size: 3.5rem;     
     white-space: nowrap;   
     color: var(--header-color);
+    margin: 0;
 }
 
 .title-line {
     flex-grow: 1;          
     height: 1px;
+    background: linear-gradient(90deg, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0) 100%);
 }
 
 
@@ -87,27 +92,67 @@
     display: flex;
     justify-content: space-between; 
     align-items: center;
-    margin-top: 50px;
+    margin-top: 60px;
+    padding: 0 40px; 
 }
 
 
 .slider-controls {
     display: flex;
-    gap: 15px;           
+    gap: 15px;      
 }
 
 .slider-controls button {
-    background-color: #333;  
-    color: white;
-    border: none;
-    border-radius: 50%;    
-    width: 45px;
-    height: 45px;
-    font-size: 18px;
+    background: transparent;  
+    color:var(--header-color,#FFFFFF);         
+    border: 1px solid rgba(255,255,255,0.5); 
+    border-radius: 50%;     
+    width: 50px;            
+    height: 50px;
+    font-size: 20px;        
     cursor: pointer;
     transition: 0.3s;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-content h3 {
+    font-family: 'Tomorrow', sans-serif;
+    font-size: 28px;
+    margin-top: auto;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: var(--header-color,#FFFFFF);
+}
+
+
+.tour-date {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    color:var(--header-color,#FFFFFF);
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+
+.tour-info {
+    font-family: 'Inter', sans-serif;
+    color:var(--header-color,#FFFFFF);
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 1.5;      
+    max-width: 90%;      
+    height: 65px; 
+    overflow: hidden;
 }
 
