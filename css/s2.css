@@ -1,31 +1,37 @@
-.why-us {
-    background-color: var(--header-color,#FFFFFF); 
-    padding: 80px 0;
-    color: var(--text-main-color, #000); 
-}
+
+
 
 
 .why-us-header {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: flex-end;
+    padding: 0 40px;
+    margin-top: 60px;
     margin-bottom: 60px;
+    width: 100%;     
 }
 
-.why-us .title-wrapper {
+.s2-title-wrapper {
+   display: flex;         
+    align-items: center;  
+    gap: 30px;            
     flex-grow: 1;
-    margin-bottom: 0;
 }
 
 
-.why-us .title-line {
-    background: linear-gradient(90deg, #000 0%, rgba(0,0,0,0) 100%);
+.s2-title-line {
+  flex-grow: 1;          
+    height: 1px;
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.7) 100%);
 }
-.why-us .section-title {
+
+
+.s2-section-title {
     font-size: 3.5rem;     
-    white-space: nowrap;   
+ 
     color: var(--text-main-color, #000);
-    margin: 0
+    margin: 0;
 }
 
 
@@ -74,14 +80,4 @@
     line-height: 1.4;
     color: var(--text-main-color, #000);
     max-width: 250px; 
-}
-
-.why-us .title-line {
-    background: linear-gradient(90deg, #000 0%, rgba(0,0,0,0) 100%);
-}
-.why-us .section-title {
-    font-size: 3.5rem;     
-    white-space: nowrap;   
-    color: var(--text-main-color, #000);
-    margin: 0
 }
