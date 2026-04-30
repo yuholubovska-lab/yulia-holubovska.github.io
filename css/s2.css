@@ -20,13 +20,6 @@
 }
 
 
-.s2-title-line {
-  flex-grow: 1;          
-    height: 1px;
-    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.7) 100%);
-}
-
-
 .s2-section-title {
     font-size: 3.5rem;     
  

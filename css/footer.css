@@ -1,0 +1,142 @@
+footer {
+    background-color: #12121B !important; 
+    border-radius: 60px 60px 0 0; 
+    margin-top: 60px;  
+    padding: 80px 0 40px;   
+    padding-bottom: 100px;   
+    position: relative;
+    z-index: 10;
+    color: #ffffff;
+    width: 100%;
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;       
+    gap: 100px;                
+}
+
+.footer-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;  
+    text-align: center;   
+}
+
+.black-hole-img {
+    margin-bottom: 20px;    
+}
+
+.black-hole-img img {
+    width: 300px;          
+    height: auto;
+}
+
+.footer-left p {
+    font-family: "Tomorrow", sans-serif;
+  font-weight: 400;
+  font-style: medium;
+    font-size: 20px;
+    color: var(--header-color, #FFFFFF);
+    max-width: 300px;       
+    margin-bottom: 40px;  
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center; 
+    gap: 25px;             
+}
+
+
+
+.footer-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+
+.footer-title {
+    font-size: 3rem;
+    margin-bottom: 40px;
+    line-height: 1.2;
+}
+
+.application-form {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);      
+    padding: 40px;
+    border-radius: 30px;               
+    width: 100%;
+    max-width: 550px;                 
+}
+
+.input-group {
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #DEDEE3;
+    margin-bottom: 10px;
+    margin-left: 10px; 
+}
+
+.input-group input {
+    width: 100%;
+    padding: 15px 25px;
+    background: #DEDEE3;   
+    border: none;
+    border-radius: 50px;   
+    font-size: 16px;
+    outline: none;
+}
+
+.btn-call {
+    background-color: #12121B; 
+    color: #FFFFFF;
+    padding: 12px 45px;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    align-self: flex-end;  
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.btn-call:hover {
+    background-color: #242435;
+}
+
+
+.footer-nasa {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    max-width: 550px;
+    gap: 15px;
+}
+
+.footer-nasa span {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+.footer-nasa img {
+    width: 80px; 
+    height: auto;
+}

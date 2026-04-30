@@ -7,6 +7,7 @@
     --main-dark-colour-02: #414159;                           /*Колір посилань*/
     --button-colour: #1D1D35;                           /*Колір кнопок*/
     --bg-secondary-color: #D5D5DD;               /*Колір фону №2*/
+    --main-dark-colour: #0F101D; 
     --mob-padding: 20px;                           /*Відступи до контенту для смартфонів*/
     --tab-padding: 50px;                           /*Відступи до контенту для планшетів*/
     --max-width: 1380px;                           /*Обмеження ширини секції*/
