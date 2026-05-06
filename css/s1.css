@@ -2,7 +2,7 @@
 
 
 .tours {
-    background-color: var(--main-colour, #1D1915); 
+    background-color: var(--main-colour, #27221E); 
     border-radius: 40px;       
     padding: 60px 0 80px;           
     margin-top: -40px;      
@@ -105,7 +105,7 @@
 .slider-controls button {
     background: transparent;  
     color:var(--header-color,#FFFFFF);         
-    border: 1px solid rgba(255,255,255,0.5); 
+    border: 1px solid var(--gray-secondary, #726C68); 
     border-radius: 50%;     
     width: 50px;            
     height: 50px;

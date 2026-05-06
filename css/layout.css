@@ -1,5 +1,6 @@
 :root {
     --main-colour: #27221E;                        /*Колір фону №1*/
+    --gray-secondary: #726C68;                       /*Колір тексту №2*/
     --main-dark-colour: #ccc;                        /*Колір основний для темних блоків*/
     --header-color: #FFFFFF;             /*Колір заголовків*/
      --text-main-color: #000;             /*Колір основного тексту*/
