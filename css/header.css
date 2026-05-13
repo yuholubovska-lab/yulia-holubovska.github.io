@@ -1,35 +1,15 @@
-.main-header {
-    background-image: url('../img/space-bg.jpg'); 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 100vh; 
+
+.header-content {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-    position: relative;
-    width: 100%;
-
-}
-.title-group {
-    display: inline-flex;
-    flex-direction: column; 
-    align-items: flex-end; 
-    position: relative;  
-}
-
-.planet-icon {
-    position: absolute; 
-    top: -100px;  
-    left: -100px; 
-    width: 250px; 
-    height: 150px;  
-    filter: brightness(1.2); 
+    align-items: center;
+    align-content: center;
 }
 
 .main-title {
     font-family: 'Orbitron', sans-serif; 
-    font-size: 250px;
+    font-size: 12.5vw;
     color: white;
     margin: 0;
     line-height: 0.8; 
@@ -40,16 +20,19 @@
     font-size: 28px;
     color: white; 
     text-transform: lowercase;
-    margin-top: 5px; 
+    margin-top: 5px;
+    margin-left: auto;
+    padding-right: .4em;
 }
 
 .header-tag {
-    position: absolute; 
-    bottom: 60px;
+    position: absolute;
+    bottom: 40px;
     right: 40px;
     display: flex;     
     align-items: center;
-    gap: 15px;          
+    gap: 15px;
+    z-index: 999; 
 }
 
 .header-tag p {

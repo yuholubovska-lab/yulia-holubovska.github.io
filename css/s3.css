@@ -99,15 +99,15 @@
 
     .features-grid { 
     display: flex;
-    flex-wrap: wrap;       /* ЦЕЙ РЯДОК — ПОРЯТУНОК. Він дозволяє карткам падати вниз */
+    flex-wrap: wrap;      
     justify-content: center;
-    gap: 30px;             /* Відстань між картками */
+    gap: 30px;          
 }
 
-/* Сама картка (космонавт + текст) */
+
 .feature-item {
-    flex: 1 1 250px;       /* Картка намагається бути 250px, але може рости */
-    max-width: 300px;      /* Щоб на телефоні вона не розтягнулася на весь екран */
+    flex: 1 1 250px; 
+    max-width: 300px;     
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -1,264 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>space</title>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron:wght@400..900&family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron:wght@400..900&family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 
-<link rel="stylesheet" href="css/normilize.css">
-<link rel="stylesheet" href="css/layout.css">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/header.css">
-<link rel="stylesheet" href="css/s1.css">
-<link rel="stylesheet" href="css/s2.css">
-<link rel="stylesheet" href="css/s3.css">
-<link rel="stylesheet" href="css/footer.css">
-<link rel="stylesheet" href="css/video_bg.css">
+    <link rel="stylesheet" href="css/normilize.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/s1.css">
+    <link rel="stylesheet" href="css/s2.css">
+    <link rel="stylesheet" href="css/s3.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/video_bg.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/nav.css">
 
 </head>
+
 <body id="top">
     <nav>
-
+    <div class="navbar">
+           <div class="navigation">
+                <button class="nav-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="level_1">
+                    <li><a class="nav-link" href="#top">Main Page</a></li>
+                    <li><a class="nav-link" href="#s1">Choose Your Tour</a></li>
+                    <li><a class="nav-link" href="#s2">Questions</a></li>
+                    <li><a class="nav-link" href="#s3">Contacts</a></li>
+                </ul>
+           </div>
+       </div>
     </nav>
 
-
-
-
-        <header class="main-header">
-    <div class="inside">
-        <div class="title-group">
-            <img src="img/element.png" alt="planet" class="planet-icon">
-            <h1 class="main-title">Explore</h1>
-            <span class="subtitle">the space</span>
-        </div>
-    </div>
-    <div class="header-tag">
-        <p>Together with NASA</p>
-        <img src="img/galaxy.png" alt="galaxy icon">
-    </div>
-</header>
-
-
-
-<!-- <header class="v-header container">
+    <header class="v-header container">
         <div class="fullscreen-video-wrap">
             <video src="img/background_v.mp4" autoplay="true" loop="true" muted="true">
             </video>
         </div>
         <div class="header-overlay"></div>
-        <div class="header-content text-md-center">
+        <div class="header-content">
             <h1 class="main-title">Explore</h1>
             <span class="subtitle">the space</span>
         </div>
-         <div class="header-tag">
-             <p>Together with NASA</p>
+        <div class="header-tag">
+            <p>Together with NASA</p>
             <img src="img/galaxy.png" alt="galaxy icon">
-            </div>
-    </header> -->
-
-
-
+        </div>
+    </header>
 
     <section id="s1">
-        <div class="tours">
-
-            <div class="title-wrapper">
-   
-             <h2 class="section-title">Choose Your Tour</h2>
-             <div class="title-line"></div> 
+        <div class="inside">
+            <h2 class="section-title">Choose Your Tour</h2>
+            <div id="sw-01" class="swiper-container slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide item">
+                        <div class="planet">
+                            <img src="img/venus.png" alt="">
+                            <div class="planet-description">
+                                <h3>Venus</h3>
+                                <p class="tour-date">Starts from 27 March</p>
+                                <p class="tour-rate"> ⭐ 5.0 (15)</p>
+                                <p class="tour-info">Venus is the second planet from the Sun. It’s
+                                    the hottest planet, so be ready to have a hot weekend!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide item">
+                        <div class="planet">
+                            <img src="img/moon.png" alt="">
+                            <div class="planet-description">
+                                <h3>Moon</h3>
+                                <p class="tour-date">Starts from 15 April</p>
+                                <p class="tour-rate"> ⭐ 4.3 (1498)</p>
+                                <p class="tour-info">The Moon is the Earth's only natural satellite. The largest and
+                                    most massive satellite in the Solar System.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide item">
+                        <div class="planet">
+                            <img src="img/mars.png" alt="">
+                            <div class="planet-description">
+                                <h3>Mars</h3>
+                                <p class="tour-date">Starts from 3 March</p>
+                                <p class="tour-rate"> ⭐ 4.6 (5968)</p>
+                                <p class="tour-info">Mars is the fourth planet from the Sun, and the seventh largest.
+                                    It’s the only planet we know of inhabited entirely by robots.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide item">
+                        <div class="planet">
+                            <img src="img/saturn.png" alt="">
+                            <div class="planet-description">
+                                <h3>Saturn</h3>
+                                <p class="tour-date">Starts from 13 June</p>
+                                <p class="tour-rate"> ⭐ 5.0 (3)</p>
+                                <p class="tour-info">Saturn, the sixth-farthest planet from the Sun and is known for its
+                                    spectacular ring system.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide item">
+                        <div class="planet">
+                            <img src="img/jupiter.png" alt="">
+                            <div class="planet-description">
+                                <h3>Jupiter</h3>
+                                <p class="tour-date">Starts from 15 June</p>
+                                <p class="tour-rate"> ⭐ 4.9 (8)</p>
+                                <p class="tour-info">Jupiter is the largest planet in the Solar System, the fifth from
+                                    the Sun, and is classified as a gas giant.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
-
-            <div class="tours-container">
-            <div class="tour-card venus">
-                <div class="card-content">
-                    <h3>Venus</h3>
-                    <p class="tour-date">Starts from 27 March | ⭐ 5.0 (15)</p>
-                    <p class="tour-info">Venus is the second planet from the Sun, and the sixth largest planet. It’s the hottest planet in our solar system, so be ready to have a hot weekend!</p>
-                </div>
-            </div>
-
-            <div class="tour-card moon">
-                <div class="card-content">
-                    <h3>Moon</h3>
-                    <p class="tour-date">Starts from 15 April | ⭐ 4.3 (1498)</p>
-                    <p class="tour-info">The Moon is the Earth's only natural satellite. The largest and most massive satellite in the Solar System.</p>
-                </div>
-                </div>
-
-            <div class="tour-card mars">
-                <div class="card-content">
-                    <h3>Mars</h3>
-                    <p class="tour-date">Starts from 3 March | ⭐ 4.6 (5968)</p>
-                    <p class="tour-info">Mars is the fourth planet from the Sun, and the seventh largest. It’s the only planet we know of inhabited entirely by robots. Are you ready to visit them?</p>
-                </div>
-                </div>
-        </div>
-
-        <div class="tours-footer">
-
             <div class="header-tag">
-        <p>Together with NASA</p>
-        <img src="img/galaxy.png" alt="galaxy icon">
-    </div>
-
-            <div class="slider-controls">
-                <button class="prev"> < </button>
-                <button class="next"> > </button>
+                <p>Together with NASA</p>
+                <img src="img/galaxy.png" alt="galaxy icon">
             </div>
-        </div>
         </div>
     </section>
-
-
-
 
     <section id="s2">
         <div class="inside">
             <div class="why-us-header">
-            <div class="s2-title-wrapper">
-                <h2 class="s2-section-title">Why Us?</h2>
+                <div class="s2-title-wrapper">
+                    <h2 class="s2-section-title">Why Us?</h2>
+                </div>
+
+                <div class="nasa-black-box">
+                    Together with NASA
+                </div>
             </div>
-            
-            <div class="nasa-black-box">
-                Together with NASA
-            </div>
-        </div>
 
 
             <div class="features-grid">
-            
-            <div class="feature-item">
-                <img src="img/astro1.png" alt="Safety">
-                <h3>A+ level safety:</h3>
-                <p>Dual life support system and automated flight control at every stage.</p>
-            </div>
 
-            <div class="feature-item">
-                <img src="img/astro2.png" alt="Training">
-                <h3>Express training:</h3>
-                <p>Our training program takes only 5 days thanks to the latest generation VR simulators.</p>
-            </div>
+                <div class="feature-item">
+                    <img src="img/astro1.png" alt="Safety">
+                    <h3>A+ level safety:</h3>
+                    <p>Dual life support system and automated flight control at every stage.</p>
+                </div>
 
-            <div class="feature-item">
-                <img src="img/astro3.png" alt="Routes">
-                <h3>Flexible routes:</h3>
-                <p>From a 4-hour suborbital jump to a week-long stay at the Moon base.</p>
-            </div>
+                <div class="feature-item">
+                    <img src="img/astro2.png" alt="Training">
+                    <h3>Express training:</h3>
+                    <p>Our training program takes only 5 days thanks to the latest generation VR simulators.</p>
+                </div>
 
-            <div class="feature-item">
-                <img src="img/astro4.png" alt="Support">
-                <h3>Expert support:</h3>
-                <p>Next to you are pilots who have been trained at the best space agencies in the world.</p>
-            </div>
+                <div class="feature-item">
+                    <img src="img/astro3.png" alt="Routes">
+                    <h3>Flexible routes:</h3>
+                    <p>From a 4-hour suborbital jump to a week-long stay at the Moon base.</p>
+                </div>
 
-        </div>
+                <div class="feature-item">
+                    <img src="img/astro4.png" alt="Support">
+                    <h3>Expert support:</h3>
+                    <p>Next to you are pilots who have been trained at the best space agencies in the world.</p>
+                </div>
+
+            </div>
         </div>
     </section>
-
-
-
-
 
     <section id="s3">
         <div class="inside">
             <div class="offer-header">
-            <h2 class="s3-section-title">What Do We Offer?</h2>
-        </div>
+                <h2 class="s3-section-title">What Do We Offer?</h2>
+            </div>
 
-        <div class="offers-list">
-            <div class="offer-item active"> <img src="img/moon.svg" alt="Sleep">
-                <div class="offer-text">
-                    <h3>Smart sleep and relaxation system</h3>
-                    <p>Gravity beds with the "immersion" effect simulate earthly tranquility or complete weightlessness, as you choose. The lighting system automatically adjusts to your rhythms to overcome the fatigue of 16 dawns a day.</p>
+            <div class="offers-list">
+                <div class="offer-item active"> <img src="img/moon.svg" alt="Sleep">
+                    <div class="offer-text">
+                        <h3>Smart sleep and relaxation system</h3>
+                        <p>Gravity beds with the "immersion" effect simulate earthly tranquility or complete
+                            weightlessness, as you choose. The lighting system automatically adjusts to your rhythms to
+                            overcome the fatigue of 16 dawns a day.</p>
+                    </div>
+                </div>
+
+                <div class="offer-item">
+                    <img src="img/sun.svg" alt="Cabins">
+                    <div class="offer-text">
+                        <h3>Infinity View Cabins</h3>
+                        <p>Our living modules are designed by the best interior designers. Each cabin is equipped with a
+                            huge radiation-protected porthole so you can fall asleep while gazing at the Milky Way.</p>
+                    </div>
+                </div>
+
+                <div class="offer-item active">
+                    <img src="img/food.svg" alt="Cuisine">
+                    <div class="offer-text">
+                        <h3>Haute cuisine</h3>
+                        <p>Space food is no longer just tubes. On board, there is a molecular cuisine system: steaks,
+                            fresh fruits and desserts adapted to the conditions of weightlessness.</p>
+                    </div>
+                </div>
+
+                <div class="offer-item">
+                    <img src="img/application.svg" alt="Quantum">
+                    <div class="offer-text">
+                        <h3>Quantum-Link</h3>
+                        <p>Your vacation will be live. Thanks to quantum communication, we provide uninterrupted video
+                            communication with loved ones and super-fast internet for your social networks.</p>
+                    </div>
                 </div>
             </div>
 
-            <div class="offer-item">
-                <img src="img/sun.svg" alt="Cabins">
-                <div class="offer-text">
-                    <h3>Infinity View Cabins</h3>
-                    <p>Our living modules are designed by the best interior designers. Each cabin is equipped with a huge radiation-protected porthole so you can fall asleep while gazing at the Milky Way.</p>
-                </div>
+            <div class="offer-footer">
+                <div class="nasa-black-box">Together with NASA</div>
             </div>
-
-            <div class="offer-item active">
-                <img src="img/food.svg" alt="Cuisine">
-                <div class="offer-text">
-                    <h3>Haute cuisine</h3>
-                    <p>Space food is no longer just tubes. On board, there is a molecular cuisine system: steaks, fresh fruits and desserts adapted to the conditions of weightlessness.</p>
-                </div>
-            </div>
-
-            <div class="offer-item">
-                <img src="img/application.svg" alt="Quantum">
-                <div class="offer-text">
-                    <h3>Quantum-Link</h3>
-                    <p>Your vacation will be live. Thanks to quantum communication, we provide uninterrupted video communication with loved ones and super-fast internet for your social networks.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="offer-footer">
-            <div class="nasa-black-box">Together with NASA</div>
-        </div>
         </div>
     </section>
-
-
 
     <footer>
 
         <div class="inside footer-container">
-        
-        <div class="footer-left">
-            <div class="black-hole-img">
-                <img src="img/black-hole.png" alt="Black Hole">
+
+            <div class="footer-left">
+                <div class="black-hole-img">
+                    <img src="img/black-hole.png" alt="Black Hole">
+                </div>
+                <p>Follow Us on Social Media and be the first to find out news!</p>
+                <div class="social-icons">
+                    <a href="#"><img src="img/inst.svg" alt="Instagram"></a>
+                    <a href="#"><img src="img/x.svg" alt="X"></a>
+                    <a href="#"><img src="img/fb.svg" alt="Facebook"></a>
+                    <a href="#"><img src="img/wa.svg" alt="WhatsApp"></a>
+                    <a href="#"><img src="img/google.svg" alt="Google"></a>
+                </div>
             </div>
-            <p>Follow Us on Social Media and be the first to find out news!</p>
-            <div class="social-icons">
-                <a href="#"><img src="img/inst.svg" alt="Instagram"></a>
-                <a href="#"><img src="img/x.svg" alt="X"></a>
-                <a href="#"><img src="img/fb.svg" alt="Facebook"></a>
-                <a href="#"><img src="img/wa.svg" alt="WhatsApp"></a>
-                <a href="#"><img src="img/google.svg" alt="Google"></a>
+
+            <div class="footer-right">
+                <h2 class="footer-title">Send Us Your Application</h2>
+
+                <form class="application-form">
+                    <div class="input-group">
+                        <label>Your name</label>
+                        <input type="text" placeholder="">
+                    </div>
+                    <div class="input-group">
+                        <label>Your email adress</label>
+                        <input type="email" placeholder="">
+                    </div>
+                    <div class="input-group">
+                        <label>Your phone number</label>
+                        <input type="tel" placeholder="">
+                    </div>
+                    <button type="submit" class="btn-call">Call me</button>
+                </form>
+
+                <div class="footer-nasa">
+                    <span>Together with NASA</span>
+                    <img src="img/galaxy.png" alt="galaxy icon">
+                </div>
             </div>
+
         </div>
 
-        <div class="footer-right">
-            <h2 class="footer-title">Send Us Your Application</h2>
-            
-            <form class="application-form">
-                <div class="input-group">
-                    <label>Your name</label>
-                    <input type="text" placeholder="">
-                </div>
-                <div class="input-group">
-                    <label>Your email adress</label>
-                    <input type="email" placeholder="">
-                </div>
-                <div class="input-group">
-                    <label>Your phone number</label>
-                    <input type="tel" placeholder="">
-                </div>
-                <button type="submit" class="btn-call">Call me</button>
-            </form>
 
-            <div class="footer-nasa">
-                <span>Together with NASA</span>
-                <img src="img/galaxy.png" alt="galaxy icon">
-            </div>
-        </div>
-
-    </div>
-
-        
     </footer>
-
-
+    <script src="js/nav.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/swiper-init.js"></script>
 </body>
 
 </html>

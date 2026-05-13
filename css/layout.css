@@ -1,5 +1,7 @@
 :root {
     --main-colour: #27221E;                        /*Колір фону №1*/
+    --nav-colour: #D3D3D3;                       /*Колір фону навігаційної панелі*/
+    --nav-colour-02: #A2A2A2;
     --gray-secondary: #726C68;                       /*Колір тексту №2*/
     --main-dark-colour: #ccc;                        /*Колір основний для темних блоків*/
     --header-color: #FFFFFF;             /*Колір заголовків*/
@@ -19,6 +21,11 @@ html, body {
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
+  overflow-x: hidden;
+}
+
+section {
+  position: relative;
 }
 
 em, i, .italic{
