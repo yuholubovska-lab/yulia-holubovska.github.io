@@ -197,4 +197,20 @@ footer {
         justify-content: center; 
         margin-bottom: 20px;
     }
+
+    .social-icons a {
+    text-decoration: none;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    display: inline-block; 
+}
+
+.social-icons a:hover {
+    transform: translateY(-5px); 
+    opacity: 0.8;                
+}
+
+.social-icons img {
+    width: 35px; 
+    height: auto;
+}
 }

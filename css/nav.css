@@ -29,7 +29,7 @@ nav.topfixed::before {
     background-color: var(--nav-colour); 
     display: flex;
     border-radius: 0 0 80px 80px;
-    padding: 5px 100px;
+    padding: 2px 100px;
     margin-left: auto;                  /* Центрування блоку всередині nav по-горизонталі */
     margin-right: auto;
     width: auto;
@@ -43,7 +43,7 @@ nav.topfixed::before {
 }
 
 .topfixed .navbar {
-    justify-content: space-between;     /* Схема вирівнювання лого та меню (desktop) по основній осі (main axis) після прокрутки */
+    justify-content: center;     /* Схема вирівнювання лого та меню (desktop) по основній осі (main axis) після прокрутки */
     /* border-bottom-left-radius: var(--bord-radius); */
     /* border-bottom-right-radius: var(--bord-radius); */
     /* background-image: url(../img/image-in-top.jpg); */
@@ -68,7 +68,7 @@ nav .navbar {
     display: block;
     color: var(--main-colour);  /* Основний колір меню */
     font-family: "Orbitron", sans-serif;
-    font-size: .9rem;           /* Розмір тексту меню */
+    font-size: .8rem;           /* Розмір тексту меню */
     font-weight: 600;           /* Накреслення тексту меню */
     letter-spacing: .025em;
     white-space: nowrap;
@@ -121,24 +121,26 @@ a:hover, a:focus, a:active {
 @media screen and (max-width: 767px) {
 
     .navbar {
-        justify-content: space-between;
+        justify-content: center;
+        padding: 5px 5px; 
+        border-radius: 0 0 40px 40px; 
+        width: 95%; 
+        min-height: auto;
     }
 
     .navigation ul {
 
-        display: flex;
-        flex-direction: column;
-        visibility: visible;
-        justify-content: flex-start;
-        align-items: flex-start;
-        width: 70vw; /* 70% from Viewport width */
-        height: 100dvh; /* 100% Dynamic viewport height */
-        position: absolute;
-        right: 0;
-        top: 0;
-        padding-top: 80px;
-        transform: translateY(-100%);
-        transition: transform .35s ease;
+        display: flex;       
+        visibility: visible;  
+        transform: none;      
+        position: static ;     
+        flex-direction: row;            
+        justify-content: center;        
+        gap: 12px;                       
+        width: 100%;
+        background-color: transparent;
+        height: auto;
+        padding-top: 0 ;
     }
 
     .open .navigation ul {

@@ -97,3 +97,16 @@
     overflow: hidden;
 }
 
+@media screen and (max-width: 767px) {
+    #s1 .section-title, 
+    .s1 h2 {
+        font-size: 1.8rem !important; 
+        text-align: center;          
+        white-space: normal;       
+        width: 100%;
+    }
+
+    #s1 .section-title::after {
+        display: none; 
+    }
+}
