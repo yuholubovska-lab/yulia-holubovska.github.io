@@ -123,7 +123,7 @@ a:hover, a:focus, a:active {
     .navbar {
         justify-content: center;
         padding: 5px 5px; 
-        border-radius: 0 0 40px 40px; 
+        border-radius: 0 0 20px 20px; 
         width: 95%; 
         min-height: auto;
     }
@@ -170,7 +170,7 @@ a:hover, a:focus, a:active {
     .navbar {
         width: 90%;
         padding: 5px 5px;
-        border-radius: 0 0 40px 40px; 
+        border-radius: 0 0 20px 20px; 
         min-height: auto;
     }
     .navigation ul {
