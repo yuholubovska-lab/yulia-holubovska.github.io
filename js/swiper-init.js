@@ -25,7 +25,7 @@ const swiper = new Swiper('#sw-01', {
   //   },
   breakpoints: {
     // when window width is >= 320px
-    600: {
+    480: {
       pagination: false,
       slidesPerView: 2,
       spaceBetween: 65

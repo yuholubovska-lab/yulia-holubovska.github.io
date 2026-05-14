@@ -68,7 +68,7 @@ nav .navbar {
     display: block;
     color: var(--main-colour);  /* Основний колір меню */
     font-family: "Orbitron", sans-serif;
-    font-size: .8rem;           /* Розмір тексту меню */
+    font-size: .75rem;           /* Розмір тексту меню */
     font-weight: 600;           /* Накреслення тексту меню */
     letter-spacing: .025em;
     white-space: nowrap;
@@ -162,5 +162,36 @@ a:hover, a:focus, a:active {
 
     .open ul a:hover {
         color: var(--nav-colour-02);  /* Основний колір мобільного меню (hover) */
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .navbar {
+        width: 90%;
+        padding: 5px 5px;
+        border-radius: 0 0 40px 40px; 
+        min-height: auto;
+    }
+    .navigation ul {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center;
+        gap: 5px 0;      
+        width: 100%;
+        padding: 0;
+    }
+    .navigation li {
+        flex: 0 0 50%;   
+        display: flex;
+        justify-content: center; }
+
+    .navigation a {
+        padding: 5px 0;
+        margin: 0 !important;
+        line-height: 0.8;
+        font-size: 0.8rem; 
+        white-space: nowrap;
+        text-align: center;
     }
 }
